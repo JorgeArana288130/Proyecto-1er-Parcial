@@ -1,0 +1,14 @@
+body{
+	background: #fffbf9;
+}
+#container{
+	margin: 2px 7.5%;
+	width: 85%;
+	border: 1px	solid green;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
