@@ -1,14 +1,188 @@
+/*Generales*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body{
-	background: #fffbf9;
+	background: #ffeeb0;
 }
-#container{
-	margin: 2px 7.5%;
-	width: 85%;
-	border: 1px	solid green;
+
+a:hover{
+	color: green;
+	font-size: 20px;
 }
-a{
+
+.wrapper{
+	width: 90%;
+	max-width: 1070px;
+	margin: auto;
+	overflow: hidden;
+}
+
+	/*Header*/
+
+header{
+	width: 100%;
+	overflow: hidden;
+	background: green;
+	margin-bottom: 20px;
+}
+	
+header .logo{
+	color: #f2f2f2;
+	font-size: 50px;
+	line-height: 120px;
+	float: left;
+}
+
+header .logo:hover{
+	cursor: default;
+}
+
+header nav{
+	float: right;
+	line-height: 120px;
+}
+
+header nav a{
+ 	display: inline-block;
+ 	color: #fff;
+ 	padding: 10px 20px;
+ 	text-decoration: none;
+ 	line-height: normal;
+ 	font-size: 17px;
+ 	font-weight: bold;
+}
+
+header nav a:hover{
+ 	background: yellow;
+ 	border-radius: 50px;
+	font-size: 20px;
+}
+
+	/*Footer*/
+
+footer{
+	width: 100%;
+	overflow: hidden;
+	background: green;
+	margin-top: 20px;
+}
+
+footer div{
+	color: #000;
+	font-size: 13px;
+	line-height: 60px;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*Index*/
+
+#top, #bottom{
+	overflow: hidden;
+}
+
+section, article{
+	border: 2px groove #000;
+}
+
+section{
+	width: 55%;
+	height: 1073px;
+	float: left;
+	overflow: hidden;
+	margin: 1% 0% 2% 1%;
+	padding: 2%;
+}
+
+section img{
+	float: left;
+	padding: 9px 12px 9px 0;
+}
+
+h1{
+	text-align: center;
+	padding-bottom: 5px;
+	font-size: 30px;
+}
+
+h2{
+	text-align: center;
+	padding-bottom: 5px;
+	font-size: 25px;
+}
+
+p{
+	padding-top: 7px;
+	line-height: 19px;
+}
+
+article p{
+	line-height: 20px	;
+}
+
+#bottom{
+	border-top: 3px groove #000;
+	width: 98%;
+	margin: 0 1%;
+}
+
+#top article{
+	width: 35%;
+	height: 333px;
+	float: right;
+	overflow: hidden;
+	margin: 1%;
+	padding: 1%;
+}
+
+#bottom article{
+	width: 30%;
+	overflow: hidden;
+	display: inline-block;
+
+	
+}
+
+#a1, #a3{
+	margin: 2% 0;
+}
+
+#a1{
+	padding: 1%;
+	height: 600px;
+}
+
+#a1 img{
+	margin: 2% 20%;
+}
+
+#a2{
+	padding: 1%;
+	height: 600px;
+	margin: 2% 0 2% 1%;
+}
+
+#a3{
+	padding: 10% 1% 1% 1%;
+	height: 506px;
+	float: right;
+}
+
+#a3 a{
+	display: block;
+	padding: 2%;
 	text-decoration: none;
+	font-size: 16px;
+	margin: 2%;
 }
-ul{
-	list-style: none;
+
+#a3 a:hover{
+	font-size: 20px;
+}
+
+#a3 a img{
+	vertical-align: middle;
 }
