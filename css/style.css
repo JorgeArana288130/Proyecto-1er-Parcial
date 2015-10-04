@@ -15,9 +15,26 @@ a:hover{
 
 .wrapper{
 	width: 90%;
-	max-width: 1070px;
+	max-width: 1100px;
 	margin: auto;
 	overflow: hidden;
+}
+
+h1{
+	text-align: center;
+	padding-bottom: 5px;
+	font-size: 30px;
+}
+
+h2{
+	text-align: center;
+	padding-bottom: 5px;
+	font-size: 25px;
+}
+
+p{
+	padding-top: 7px;
+	line-height: 19px;
 }
 
 	/*Header*/
@@ -101,27 +118,46 @@ section img{
 	float: left;
 	padding: 9px 12px 9px 0;
 }
-
-h1{
-	text-align: center;
-	padding-bottom: 5px;
-	font-size: 30px;
-}
-
-h2{
-	text-align: center;
-	padding-bottom: 5px;
-	font-size: 25px;
-}
-
-p{
-	padding-top: 7px;
-	line-height: 19px;
-}
-
 article p{
 	line-height: 20px	;
 }
+
+/*Biografia*/
+
+.bio{
+	padding: 2%;
+	margin: 3% 3% 3% 6%;
+}
+
+.bio #bio{
+	border-radius: 100px;
+	margin: 3% 40%;
+}
+
+.bio p{
+	padding: 1px;
+}
+
+/*Academico*/
+
+.content #aca{
+	padding: 0 3% 0 0;
+}
+
+.content #aca h2{
+	margin: 2% 0;
+}
+.content table{
+	margin: 3% 3% 3% 6%;
+}
+
+/*Contacto*/
+
+.content form{
+	margin: 1% 35% 2%;
+}
+
+/*Bottom*/
 
 #bottom{
 	border-top: 3px groove #000;
@@ -146,11 +182,8 @@ article p{
 	
 }
 
-#a1, #a3{
-	margin: 2% 0;
-}
-
 #a1{
+	margin: 2% 0;
 	padding: 1%;
 	height: 600px;
 }
@@ -166,8 +199,9 @@ article p{
 }
 
 #a3{
+	margin: 2% 0;
 	padding: 10% 1% 1% 1%;
-	height: 506px;
+	height: 490px;
 	float: right;
 }
 
